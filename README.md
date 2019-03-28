@@ -22,11 +22,13 @@ Extracts values produces by the penultimate layer of the neural network
 from a given amount of patches from each page, and stores them into a
 file.
 
-> python3 feature_extraction.py
+> python3 feature_extraction.py classifier patch_count input_folder output_file
 
 ### project_features
 Computes a t-SNE from previously computed features, plots it, and stores
 it as an image.
+
+
 
 ### patchwise_classification
 Produces classification scores for individual patches can be obtained
